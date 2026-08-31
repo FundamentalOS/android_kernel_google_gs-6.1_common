@@ -67,6 +67,7 @@ EXPORT_TRACEPOINT_SYMBOL_GPL(android_rvh_wake_up_new_task);
 EXPORT_TRACEPOINT_SYMBOL_GPL(android_rvh_new_task_stats);
 EXPORT_TRACEPOINT_SYMBOL_GPL(android_rvh_flush_task);
 EXPORT_TRACEPOINT_SYMBOL_GPL(android_rvh_tick_entry);
+EXPORT_TRACEPOINT_SYMBOL_GPL(android_rvh_update_rq_clock);
 EXPORT_TRACEPOINT_SYMBOL_GPL(android_rvh_schedule);
 EXPORT_TRACEPOINT_SYMBOL_GPL(android_rvh_sched_cpu_starting);
 EXPORT_TRACEPOINT_SYMBOL_GPL(android_rvh_sched_cpu_dying);

@@ -172,6 +172,10 @@ DECLARE_RESTRICTED_HOOK(android_rvh_tick_entry,
 	TP_PROTO(struct rq *rq),
 	TP_ARGS(rq), 1);
 
+DECLARE_RESTRICTED_HOOK(android_rvh_update_rq_clock,
+	TP_PROTO(struct rq *rq),
+	TP_ARGS(rq), 1);
+
 DECLARE_RESTRICTED_HOOK(android_rvh_schedule,
 	TP_PROTO(unsigned int sched_mode, struct task_struct *prev,
 		struct task_struct *next, struct rq *rq),
