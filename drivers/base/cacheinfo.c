@@ -404,7 +404,7 @@ update_cpu_map:
 	 */
 	ret = cache_shared_cpu_map_setup(cpu);
 	if (ret) {
-		pr_warn("Unable to detect cache hierarchy for CPU %d\n", cpu);
+		pr_debug("Unable to detect cache hierarchy for CPU %d\n", cpu);
 		goto free_ci;
 	}
 
